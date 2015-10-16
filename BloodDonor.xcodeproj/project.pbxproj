@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10025881BBAB8DD001C900B /* BloodDonorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10025871BBAB8DD001C900B /* BloodDonorTests.swift */; };
+		F100259B1BBABB77001C900B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F100259A1BBABB77001C900B /* Images.xcassets */; };
+		F100259F1BBABBB4001C900B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F100259E1BBABBB4001C900B /* AppDelegate.swift */; };
+		F10025AD1BBAE120001C900B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10025AB1BBAE120001C900B /* LaunchScreen.xib */; };
+		F10025AE1BBAE120001C900B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F10025AC1BBAE120001C900B /* Main.storyboard */; };
+		F102F4451BCBBEAE00540979 /* AKPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F102F4441BCBBEAE00540979 /* AKPickerView.swift */; settings = {ASSET_TAGS = (); }; };
+		F1719BB71BC3BF6D005D8DA4 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1719BB61BC3BF6D005D8DA4 /* RegistrationViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F10025821BBAB8DD001C900B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F10025611BBAB8DD001C900B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F10025681BBAB8DD001C900B;
+			remoteInfo = BloodDonor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F10025691BBAB8DD001C900B /* BloodDonor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodDonor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10025711BBAB8DD001C900B /* BloodDonor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BloodDonor.xcdatamodel; sourceTree = "<group>"; };
+		F10025811BBAB8DD001C900B /* BloodDonorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BloodDonorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10025861BBAB8DD001C900B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F10025871BBAB8DD001C900B /* BloodDonorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodDonorTests.swift; sourceTree = "<group>"; };
+		F10025981BBABB66001C900B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SupportingFiles/Info.plist; sourceTree = "<group>"; };
+		F100259A1BBABB77001C900B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SupportingFiles/Images.xcassets; sourceTree = "<group>"; };
+		F100259E1BBABBB4001C900B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = CommonFiles/AppDelegate.swift; sourceTree = "<group>"; };
+		F10025AB1BBAE120001C900B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		F10025AC1BBAE120001C900B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F102F4441BCBBEAE00540979 /* AKPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AKPickerView.swift; path = SupportingFiles/AKPickerView.swift; sourceTree = "<group>"; };
+		F1719BB61BC3BF6D005D8DA4 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegistrationViewController.swift; path = ViewControllers/RegistrationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10025661BBAB8DD001C900B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100257E1BBAB8DD001C900B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10025601BBAB8DD001C900B = {
+			isa = PBXGroup;
+			children = (
+				F100256B1BBAB8DD001C900B /* BloodDonor */,
+				F10025841BBAB8DD001C900B /* BloodDonorTests */,
+				F100256A1BBAB8DD001C900B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F100256A1BBAB8DD001C900B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10025691BBAB8DD001C900B /* BloodDonor.app */,
+				F10025811BBAB8DD001C900B /* BloodDonorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F100256B1BBAB8DD001C900B /* BloodDonor */ = {
+			isa = PBXGroup;
+			children = (
+				F10025971BBAB9F9001C900B /* Database */,
+				F10025961BBAB9E5001C900B /* SupportingFiles */,
+				F10025951BBAB9DB001C900B /* CommonFiles */,
+				F10025941BBAB9D1001C900B /* Models */,
+				F10025931BBAB9C3001C900B /* ViewControllers */,
+				F10025911BBAB9AA001C900B /* Framerworks */,
+			);
+			path = BloodDonor;
+			sourceTree = "<group>";
+		};
+		F10025841BBAB8DD001C900B /* BloodDonorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F10025871BBAB8DD001C900B /* BloodDonorTests.swift */,
+				F10025851BBAB8DD001C900B /* Supporting Files */,
+			);
+			path = BloodDonorTests;
+			sourceTree = "<group>";
+		};
+		F10025851BBAB8DD001C900B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10025861BBAB8DD001C900B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F10025911BBAB9AA001C900B /* Framerworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Framerworks;
+			sourceTree = "<group>";
+		};
+		F10025931BBAB9C3001C900B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F1719BB61BC3BF6D005D8DA4 /* RegistrationViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F10025941BBAB9D1001C900B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		F10025951BBAB9DB001C900B /* CommonFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F100259E1BBABBB4001C900B /* AppDelegate.swift */,
+			);
+			name = CommonFiles;
+			sourceTree = "<group>";
+		};
+		F10025961BBAB9E5001C900B /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F10025AB1BBAE120001C900B /* LaunchScreen.xib */,
+				F10025AC1BBAE120001C900B /* Main.storyboard */,
+				F100259A1BBABB77001C900B /* Images.xcassets */,
+				F10025981BBABB66001C900B /* Info.plist */,
+				F102F4441BCBBEAE00540979 /* AKPickerView.swift */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F10025971BBAB9F9001C900B /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				F10025701BBAB8DD001C900B /* BloodDonor.xcdatamodeld */,
+			);
+			name = Database;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10025681BBAB8DD001C900B /* BloodDonor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F100258B1BBAB8DD001C900B /* Build configuration list for PBXNativeTarget "BloodDonor" */;
+			buildPhases = (
+				F10025651BBAB8DD001C900B /* Sources */,
+				F10025661BBAB8DD001C900B /* Frameworks */,
+				F10025671BBAB8DD001C900B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BloodDonor;
+			productName = BloodDonor;
+			productReference = F10025691BBAB8DD001C900B /* BloodDonor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F10025801BBAB8DD001C900B /* BloodDonorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F100258E1BBAB8DD001C900B /* Build configuration list for PBXNativeTarget "BloodDonorTests" */;
+			buildPhases = (
+				F100257D1BBAB8DD001C900B /* Sources */,
+				F100257E1BBAB8DD001C900B /* Frameworks */,
+				F100257F1BBAB8DD001C900B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F10025831BBAB8DD001C900B /* PBXTargetDependency */,
+			);
+			name = BloodDonorTests;
+			productName = BloodDonorTests;
+			productReference = F10025811BBAB8DD001C900B /* BloodDonorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10025611BBAB8DD001C900B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Weboniselab;
+				TargetAttributes = {
+					F10025681BBAB8DD001C900B = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					F10025801BBAB8DD001C900B = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = F10025681BBAB8DD001C900B;
+					};
+				};
+			};
+			buildConfigurationList = F10025641BBAB8DD001C900B /* Build configuration list for PBXProject "BloodDonor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F10025601BBAB8DD001C900B;
+			productRefGroup = F100256A1BBAB8DD001C900B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10025681BBAB8DD001C900B /* BloodDonor */,
+				F10025801BBAB8DD001C900B /* BloodDonorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10025671BBAB8DD001C900B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10025AD1BBAE120001C900B /* LaunchScreen.xib in Resources */,
+				F100259B1BBABB77001C900B /* Images.xcassets in Resources */,
+				F10025AE1BBAE120001C900B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100257F1BBAB8DD001C900B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10025651BBAB8DD001C900B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1719BB71BC3BF6D005D8DA4 /* RegistrationViewController.swift in Sources */,
+				F100259F1BBABBB4001C900B /* AppDelegate.swift in Sources */,
+				F102F4451BCBBEAE00540979 /* AKPickerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F100257D1BBAB8DD001C900B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10025881BBAB8DD001C900B /* BloodDonorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F10025831BBAB8DD001C900B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F10025681BBAB8DD001C900B /* BloodDonor */;
+			targetProxy = F10025821BBAB8DD001C900B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F10025891BBAB8DD001C900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F100258A1BBAB8DD001C900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F100258C1BBAB8DD001C900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodDonor/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webonise.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F100258D1BBAB8DD001C900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BloodDonor/SupportingFiles/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webonise.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F100258F1BBAB8DD001C900B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodDonorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webonise.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodDonor.app/BloodDonor";
+			};
+			name = Debug;
+		};
+		F10025901BBAB8DD001C900B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BloodDonorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.webonise.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodDonor.app/BloodDonor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10025641BBAB8DD001C900B /* Build configuration list for PBXProject "BloodDonor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10025891BBAB8DD001C900B /* Debug */,
+				F100258A1BBAB8DD001C900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F100258B1BBAB8DD001C900B /* Build configuration list for PBXNativeTarget "BloodDonor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F100258C1BBAB8DD001C900B /* Debug */,
+				F100258D1BBAB8DD001C900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F100258E1BBAB8DD001C900B /* Build configuration list for PBXNativeTarget "BloodDonorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F100258F1BBAB8DD001C900B /* Debug */,
+				F10025901BBAB8DD001C900B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F10025701BBAB8DD001C900B /* BloodDonor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F10025711BBAB8DD001C900B /* BloodDonor.xcdatamodel */,
+			);
+			currentVersion = F10025711BBAB8DD001C900B /* BloodDonor.xcdatamodel */;
+			path = BloodDonor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F10025611BBAB8DD001C900B /* Project object */;
+}
